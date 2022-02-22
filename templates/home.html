@@ -1,0 +1,52 @@
+{% extends "base_template.html" %}
+
+{% block title %}
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Home</title>
+{% endblock %}
+
+{% block main %}
+    <!-- Background Image -->
+    <section class="container-fluid main-img d-flex align-items-center">
+        <div class="container text-center text-light">
+            <h1>Destinations</h1>
+            <p class="lead">Find your place.</p>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="container p-5" id="about">
+        <div class="row align-items-center justify-content-center">
+            <img class="d-none d-md-block ms-5" src="/static/img/streetphoto.jpg" alt="streetphoto">
+            <div class="col-md-6 text-center text-md-start text-md-start ms-md-5">
+                <h1>About Us</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aliquid omnis tenetur aliquam voluptas cupiditate error nesciunt et quia sunt perspiciatis quo ullam veniam officiis, sapiente reprehenderit ex eius. Eos.</p>
+                <button type="button" class="btn btn-outline-primary p-2 mt-3">Learn More</button>
+            </div>
+            <div class="col-12 text-center mt-5">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-sm-12 col-md-3 mt-4">
+                        <i class="h1 bi bi-cash"></i>
+                        <p class="fs-4 fw-bold">Affordable</p>
+                        <p class="fs-5 fw-light">Find the best places at affordable price.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-3 mt-4">
+                        <i class="h1 bi bi-calendar-check"></i>
+                        <p class="fs-4 fw-bold">Available</p>
+                        <p class="fs-5 fw-light">Book whenever you want.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-3 mt-4">
+                        <i class="h1 bi bi-shield-check"></i>
+                        <p class="fs-4 fw-bold">Safe</p>
+                        <p class="fs-5 fw-light">Travel safe with our health and damage insurance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Team members -->
+    <section class="container" id="team">
+        
+    </section>
+{% endblock %}
