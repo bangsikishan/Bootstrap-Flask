@@ -17,3 +17,15 @@ body{
     height: 30%;
     width: 30%;
 }
+
+.achievements-class{
+    height: 25vh;
+    background-color: rgb(34, 34, 34);
+}
+
+@media only screen and (max-width: 767px) {
+    .achievements-class{
+        height: 47vh;
+        background-color: rgb(34, 34, 34);
+    }
+}
