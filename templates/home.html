@@ -1,10 +1,14 @@
 {% extends "base_template.html" %}
 
+
+<!-- Title Section -->
 {% block title %}
     <link rel="stylesheet" href="../static/css/style.css">
     <title>Home</title>
 {% endblock %}
 
+
+<!-- Main Section -->
 {% block main %}
     <!-- Background Image -->
     <section class="container-fluid main-img d-flex align-items-center">
@@ -45,7 +49,7 @@
         </div>
     </section>
 
-    <!--Team members -->
+    <!-- Achievements -->
     <section class="achievements-class d-flex align-items-center" id="achievements">
         <div class="container-fluid">
             <div class="row text-center text-light d-flex justify-content-center">
@@ -62,6 +66,126 @@
                     <p class="lead">Staffs</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Destinations -->
+    <section class="container-fluid">
+        <div class="text-center my-5">
+            <h1>Destinations</h1>
+        </div>
+        <div class="row d-flex justify-content-evenly text-center">
+            <!-- Croatia -->
+            <div class="col col-md-4 text-center d-flex justify-content-center p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/img/croatia.jpg" class="card-img-top" alt="coratia">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light">
+                            <i class="h6 bi bi-geo-alt-fill"></i>
+                            Croatia - Columbia
+                        </h5>
+                        <p class="card-text">
+                            <i class="h6 bi bi-calendar-event"></i>
+                            Sept. 05 - Oct. 15
+                        </p>
+                        <a href="" class="btn btn-primary btn-md">Book</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Nepal -->
+            <div class="col col-md-4 text-center d-flex justify-content-center p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/img/nepal.jpg" class="card-img-top" alt="nepal">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light">
+                            <i class="h6 bi bi-geo-alt-fill"></i>
+                            Nepal - Japan
+                        </h5>
+                        <p class="card-text">
+                            <i class="h6 bi bi-calendar-event"></i>
+                            Sept. 05 - Oct. 15
+                        </p>
+                        <a href="" class="btn btn-primary btn-md">Book</a>
+                    </div>
+                </div>
+            </div>
+            <!-- France -->
+            <div class="col col-md-4 text-center d-flex justify-content-center p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/img/france.jpg" class="card-img-top" alt="france">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light">
+                            <i class="h6 bi bi-geo-alt-fill"></i>
+                            France - Australia 
+                        </h5>
+                        <p class="card-text">
+                            <i class="h6 bi bi-calendar-event"></i>
+                            Sept. 05 - Oct. 15
+                        </p>
+                        <a href="" class="btn btn-primary btn-md">Book</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Japan -->
+            <div class="col col-md-4 text-center d-flex justify-content-center p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/img/japan.jpg" class="card-img-top" alt="japan">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light">
+                            <i class="h6 bi bi-geo-alt-fill"></i>
+                            Japan - UK
+                        </h5>
+                        <p class="card-text">
+                            <i class="h6 bi bi-calendar-event"></i>
+                            Sept. 05 - Oct. 15
+                        </p>
+                        <a href="" class="btn btn-primary btn-md">Book</a>
+                    </div>
+                </div>
+            </div>
+            <!-- India -->
+            <div class="col col-md-4 text-center d-flex justify-content-center p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/img/india.jpg" class="card-img-top" alt="india">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light">
+                            <i class="h6 bi bi-geo-alt-fill"></i>
+                            India - Thailand
+                        </h5>
+                        <p class="card-text">
+                            <i class="h6 bi bi-calendar-event"></i>
+                            Sept. 05 - Oct. 15
+                        </p>
+                        <a href="" class="btn btn-primary btn-md">Book</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Korea -->
+            <div class="col col-md-4 text-center d-flex justify-content-center p-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/img/korea.jpg" class="card-img-top" alt="korea">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light">
+                            <i class="h6 bi bi-geo-alt-fill"></i>
+                            South Korea - Italy
+                        </h5>
+                        <p class="card-text">
+                            <i class="h6 bi bi-calendar-event"></i>
+                            Sept. 05 - Oct. 15
+                        </p>
+                        <a href="" class="btn btn-primary btn-md">Book</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="container-fluid bg-dark">
+        <div class="text-center text-light p-4">
+            <h3>Get In Touch With Us</h3>
+            <p class="lead">Feel free to contact us for more destinations.</p>
+            <button class="btn btn-outline-warning mt-1">Contact Us</button>
         </div>
     </section>
 {% endblock %}
